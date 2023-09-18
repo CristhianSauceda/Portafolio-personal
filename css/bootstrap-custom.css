@@ -1,0 +1,140 @@
+a{
+	outline:0 !important;
+	color: var(--color-naranja);
+}
+.navbar-light {
+	background-color:transparent!important;
+	font-size:16px;
+}
+.navbar-light .navbar-nav .nav-link h4{
+	color:#fff;	
+	transition: all ease-in-out 0.2s;
+	text-align: center;
+	justify-content: space-between;
+	font-weight: 500;
+	letter-spacing: 4px;
+	padding: 0px 15px;
+	font-size: 15px;
+}
+.navbar-light .navbar-nav .nav-link i{
+	font-size: 30px;
+}
+.navbar-light .navbar-nav .nav-link h4:hover{
+	color: #FFCE00;
+	transition: all ease-in-out 0.2s;
+	transform: translateY(-6px);
+	padding: 0px 20px;
+	text-align: center;
+	border-bottom: 4px medium #FFCE00;
+}
+.navbar-light .navbar-nav .active.nav-link{
+	background-color:transparent;
+	color: #86D6E3;
+	
+}
+
+
+.navbar-brand img{
+	width: 150px;
+	padding-left: 30%;
+	transition: all ease-in-out 0.2s;
+	
+}.navbar-brand img:hover{
+	width: 160px;
+	padding-left: 30%;
+	transition: all ease-in-out 0.2s;
+}
+
+.navbar-light .navbar-nav .show > .nav-link{
+	color: #fff;	
+}
+
+.dropdown-menu{
+	background-color:#212121;
+	border:0;
+}
+.dropdown-menu .dropdown-item{
+	font-weight:300!important;	
+}
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-item{
+	color:#fff;
+}
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-itema:focus {
+  color: #ff5518;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-light .navbar-toggler{
+	background-color: transparent;
+	border:1px solid #000;
+}
+.navbar-light .navbar-toggler:hover,
+.navbar-light .navbar-toggler:focus
+{
+    background-color: transparent;
+	cursor:pointer;
+}
+.navbar-light .navbar-toggler-icon {
+    background-color: transparent;
+}
+
+.navbar-light .navbar-toggle:hover .icon-bar {
+    background-color: #8B2588;
+	cursor:pointer;
+}
+.navbar-light .navbar-brand {
+	color:#4676fa;		
+	height: auto;
+	text-transform: uppercase;
+}
+.navbar-light .navbar-brand:hover {
+ 	color:#4676fa;
+}
+.navbar-light .navbar-brand img{
+	
+}
+
+
+.navbar-toggler i{
+	color: #00d9d9;
+	font-size: 20px;
+}
+
+
+
+.carousel-caption{
+	display: grid !important;
+	align-content: center;
+	height: 100%;
+}
+.carousel-item{
+	/*height: 100vh; opcional: en caso de no utilizar una imagen de fondo por slide*/
+}
+
+
+
+/*Altura definida para el Carousel manteniendo el aspecto de la imagen*/
+.carousel .carousel-item {
+  	height: 500px;
+}
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+.nav-link{
+	text-align: right;
+}
+
+
+
+
+
+
+
+
